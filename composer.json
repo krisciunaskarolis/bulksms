@@ -1,0 +1,19 @@
+{
+  "name" : "krisciunaskarolis/bulksms",
+  "description" : "PHP client for BulkSMS",
+  "version" : "1.0.0",
+  "keywords" : ["bulksms", "sms sending"],
+  "autoload": {
+    "psr-4": { "Krisciunas\\BulkSms\\": "src/" }
+  },
+  "authors" : [
+    {
+      "name" : "Karolis Kriščiūnas",
+      "email" : "karolis.krisciunas@gmail.com"
+    }
+  ],
+  "license" : "MIT",
+  "require": {
+    "guzzlehttp/guzzle": "^7.5"
+  }
+}
